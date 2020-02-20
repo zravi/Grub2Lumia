@@ -1,15 +1,26 @@
-GRUB2.02 Beta3 for Lumia
+GRUB2.02 Beta 3
 Complied by the_R4K_  |  Modded by RedGreenBlue123
------------------------
+For NOKIA Lumia Icon/930
+-------------------------
+Disclaimer:
+Your warranty is now void. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you have any concerns about features included in this ROM before flashing it! YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
+-------------------------
 Features:
-* Scroll loop
-* Function of volUp to select
+- Scroll loop
+- Function of volUp to select
+
+Requirement:
+- Bootloader unlocked Lumia Icon/930
+- Windows Computer
+- USB Cable
+- A few brain cells (VERY IMPORTANT)
+-------------------------
+First, you must PLUG YOUR PHONE IN to the computer
 
 To Install GRUB2:
-First, you need unlock you bootloader of your device.
-Then boot to Mass Storage mode then follow the instructions below:
-1) Copy files from archive to MainOS root
-2) Run patch_bcd.bat as ADMINISTRATOR!!!
+1) Boot into Mass Storage Mode
+2) Copy files from archive to MainOS root
+3) Run patch_bcd.bat as ADMINISTRATOR!!!
 
 To Use GRUB2:
 1) Reboot your phone
@@ -24,6 +35,23 @@ To Remove GRUB2:
 1) Copy remove_grub.bat and restore_bcd.bat to MainOS (If you deleted them from MainOS)
 2) Run restore_bcd as ADMINISTRATOR!!!
 3) Run remove_grub.bat as ADMINISTRATOR!!!
------------------------
-PS:
-you can install this directly on your phone if you have bcdedit.exe on installed it. (NOT TESTED. TRY AT YOUR OWN RISK!)
+-------------------------
+Q&A:
+
+Q: Is it safe?
+A: Yes it is really safe if you didn't do anything different than the instruction, no hard brick.
+
+Q: Can I install this without computer?
+A: you can install this directly on your phone if you have bcdedit.exe on installed it. (NOT TESTED. TRY AT YOUR OWN RISK!)
+
+Q: Can this GRUB2 boots any Android and Linux?
+A: NOPE. Do some research and modify EFIESP\boot\grub\grub.cfg.
+
+Q: Can you build Android?
+A: N/A because I'm a newbie to porting ROMs.
+
+Q: How does Android boots without vendor.img?
+A: Copy vendor files into /system/vendor (system.img/vendor) and create vendor shortcut in root to /system/vendor.
+
+Q: Is TWRP Possible?
+A: Yes but very hard because GRUB use file based partition to boot Android, not real ext4 partition. Limit: Cannot install ROMs, Kernels, etc because GRUB doesn't use Boot partition to boot Android.
