@@ -55,3 +55,6 @@ A: Copy vendor files into /system/vendor (system.img/vendor) and create vendor s
 
 Q: Is TWRP Possible?
 A: Yes but very hard because GRUB use file based partition to boot Android, not real ext4 partition. Limit: Cannot install ROMs, Kernels, etc because GRUB doesn't use Boot partition to boot Android.
+-------------------------
+Use my initrd here if you plan to build Android:
+https://github.com/RedGreenBlue09/Initrd-ARMv7
