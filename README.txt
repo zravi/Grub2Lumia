@@ -1,4 +1,4 @@
-GRUB2.02 Beta 3
+GRUB2EFI v2.02 Beta 3
 Complied by the_R4K_  |  Modded by RedGreenBlue123
 For NOKIA Lumia Icon/930
 -------------------------
