@@ -50,6 +50,9 @@ A: NOPE. Do some research and modify EFIESP\boot\grub\grub.cfg.
 Q: Can you build Android?
 A: N/A because I'm a newbie to porting ROMs.
 
+Q: Can I use this grub for other Lumias?
+A: Yes but the partition layout is different. You need to edit grub.cfg first.
+
 Q: How does Android boots without vendor.img?
 A: Copy vendor files into /system/vendor (system.img/vendor) and create vendor shortcut in root to /system/vendor.
 
