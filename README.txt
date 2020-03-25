@@ -45,7 +45,7 @@ Q: Can I install this without computer?
 A: you can install this directly on your phone if you have bcdedit.exe on installed it. (NOT TESTED. TRY AT YOUR OWN RISK!)
 
 Q: Can this GRUB2 boots any Android and Linux?
-A: NOPE. You must use BootShim and an custom UEFI Firmware to do that.
+A: No with default UEFI. You must use BootShim and an custom UEFI Firmware to boot Linux.
 
 Q: Can you build Android?
 A: N/A because I'm a newbie to porting ROMs.
