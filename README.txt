@@ -45,19 +45,13 @@ Q: Can I install this without computer?
 A: you can install this directly on your phone if you have bcdedit.exe on installed it. (NOT TESTED. TRY AT YOUR OWN RISK!)
 
 Q: Can this GRUB2 boots any Android and Linux?
-A: NOPE. Do some research and modify EFIESP\boot\grub\grub.cfg.
+A: NOPE. You must use BootShim and an custom UEFI Firmware to do that.
 
 Q: Can you build Android?
 A: N/A because I'm a newbie to porting ROMs.
 
 Q: Can I use this grub for other Lumias?
 A: Yes but the partition layout is different. You need to edit grub.cfg first.
-
-Q: How does Android boots without vendor.img?
-A: Copy vendor files into /system/vendor (system.img/vendor) and create vendor shortcut in root to /system/vendor.
-
-Q: Is TWRP Possible?
-A: Yes but very hard because GRUB use file based partition to boot Android, not real ext4 partition. Limit: Cannot install ROMs, Kernels, etc because GRUB doesn't use Boot partition to boot Android.
 -------------------------
-Use my initrd here if you plan to build Android:
+Use my initrd here if you plan to build Android (Android will not boot without bootshim):
 https://github.com/RedGreenBlue09/Initrd-ARMv7
