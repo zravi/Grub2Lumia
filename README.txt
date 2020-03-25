@@ -1,6 +1,6 @@
 GRUB2EFI v2.02 Beta 3
 Complied by the_R4K_  |  Modded by RedGreenBlue123
-For NOKIA Lumia Icon/930
+For NOKIA Lumia Icon / 930
 -------------------------
 Disclaimer:
 Your warranty is now void. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you have any concerns about features included in this ROM before flashing it! YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
