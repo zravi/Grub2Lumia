@@ -52,6 +52,3 @@ A: N/A because I'm a newbie to porting ROMs.
 
 Q: Can I use this grub for other Lumias?
 A: Yes but the partition layout is different. You need to edit grub.cfg first.
--------------------------
-Use my initrd here if you plan to build Android (Android will not boot without bootshim):
-https://github.com/RedGreenBlue09/Initrd-ARMv7
